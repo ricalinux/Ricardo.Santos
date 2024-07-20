@@ -7,7 +7,9 @@ Esse é o meu Portifólio que mostra o meu desempenho na área de Devops.
 💻 ❤️ Simplesmente Apaixonado por Tecnologia!
 📘 Nascido e criado em São Paulo - SP - ( TEA & TDAH ) Nivél de Suporte 1º
 
-Olá, Prazer me chamo Ricardo!
+Olá, me chamo Ricardo!
+
+Estundate, curso o 2º ano e Meio do 5º Semestre de Bacheralado Engenharia da Computação pela Faculdade UNIVESP - Universidade Virtual do Estado de São Paulo (EAD), com previsão de graduação em setembro de 2026.
 Minha trajetória até aqui foi marcada por determinação, curiosidade e um compromisso contínuo com o aprendizado e evolução profissional. Iniciei como Instrutor de Informática no Projeto chamado Telecentros da Cidade São Paulo e ao longo dos anos pude aprimorar minhas habilidades em Hardware e Softwares em sistemas operacionais LINUX (Debian/Ubuntu/CentOS/Parrot e kali ) e também Sistemas Operacional Windows e suas versões e Ferramentas de Pacote Office 365, como Integração de liderança e comunicação e proatividade. E hoje eu estou totalmente imerso e respirando a tecnologia, onde me encontrei meu potencial para solução de problemas. 
 E minha experiência na área com aduação  como Analista de Suporte Jr/Técnico:
 
@@ -22,7 +24,7 @@ Introdução a precificação e vantagens da nuvem AWS/Fundamentos em Escalabili
 
 - Microsoft Security, Compliance, and Identity Fundamentals - Curso SC-900T00
 
-Familiarizar com os fundamentos de segurança, conformidade e identidade (SCI) em serviços da Microsoft relacionados e baseados em cloud. O conteúdo deste curso se alinha ao domínio do objetivo do exame SC-900. Os candidatos devem estar familiarizados com o Microsoft Azure e o Microsoft 365 e entender como as soluções de segurança, conformidade e identidade da Microsoft podem abranger essas áreas de solução para fornecer uma solução holística e de ponta a ponta. Antes de participar deste curso, os alunos devem ter:
+Familiarizar com os fundamentos de segurança, conformidade e identidade (SCI) em serviços da Microsoft relacionados e baseados em cloud. O conteúdo deste curso se alinha ao domínio do objetivo do exame SC-900, familiarizados com o Microsoft Azure e o Microsoft 365 e entender como as soluções de segurança, conformidade e identidade da Microsoft podem abranger essas áreas de solução para fornecer uma solução holística e de ponta a ponta:
 
 Conhecimento geral dos conceitos de rede e computação em nuvem.
 Conhecimento geral de TI ou qualquer experiência geral trabalhando em um ambiente de TI.
