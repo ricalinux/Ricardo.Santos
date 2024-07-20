@@ -1,7 +1,7 @@
 # Estudo de Programação
 
 Sejam bem-vindos (as) ao meu Repositório.
-Esse é o meu Portifólio que mostra o meu desempenho na área de Devops.
+Esse é o meu Portifólio que mostra o meu desempenho na área de DevSecOps|Cyber Security|Cloud|LGDP|Neurociência.
 
 ## 🚀 Sobre mim
 💻 ❤️ Simplesmente Apaixonado por Tecnologia!
@@ -9,7 +9,7 @@ Esse é o meu Portifólio que mostra o meu desempenho na área de Devops.
 
 Olá, me chamo Ricardo!
 
-Estundate, curso o 2º ano e Meio do 5º Semestre de Bacheralado Engenharia da Computação pela Faculdade UNIVESP - Universidade Virtual do Estado de São Paulo (EAD), com previsão de graduação em setembro de 2026.
+- Estundate, curso o 2º ano e Meio do 5º Semestre de Bacheralado Engenharia da Computação pela Faculdade UNIVESP - Universidade Virtual do Estado de São Paulo (EAD), com previsão de graduação em setembro de 2026.
 Minha trajetória até aqui foi marcada por determinação, curiosidade e um compromisso contínuo com o aprendizado e evolução profissional. Iniciei como Instrutor de Informática no Projeto chamado Telecentros da Cidade São Paulo e ao longo dos anos pude aprimorar minhas habilidades em Hardware e Softwares em sistemas operacionais LINUX (Debian/Ubuntu/CentOS/Parrot e kali ) e também Sistemas Operacional Windows e suas versões e Ferramentas de Pacote Office 365, como Integração de liderança e comunicação e proatividade. E hoje eu estou totalmente imerso e respirando a tecnologia, onde me encontrei meu potencial para solução de problemas. 
 E minha experiência na área com aduação  como Analista de Suporte Jr/Técnico:
 
