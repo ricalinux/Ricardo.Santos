@@ -9,7 +9,7 @@ Esse é o meu Portifólio que mostra o meu desempenho na área de DevSecOps|Cybe
 
 Olá, me chamo Ricardo!
 
-- Estundate, de Bacheralado Engenharia da Computação pela Faculdade UNIVESP - Universidade Virtual do Estado de São Paulo (EAD), com previsão de graduação em setembro de 2027.
+- Estudante, de Bacheralado Engenharia da Computação pela Faculdade UNIVESP - Universidade Virtual do Estado de São Paulo (EAD), com previsão de graduação em setembro de 2027.
 Minha trajetória até aqui foi marcada por determinação, curiosidade e um compromisso contínuo com o aprendizado e evolução profissional. Iniciei como Instrutor de Informática no Projeto chamado Telecentros da Cidade São Paulo e ao longo dos anos pude aprimorar minhas habilidades em Hardware e Softwares em sistemas operacionais LINUX (Debian| Ubuntu| CentOS| Parrot e kali ) e também Sistemas Operacional Windows e suas Versões e Ferramentas de Pacote Office 365, como Integração de liderança e comunicação e proatividade. E hoje eu estou totalmente imerso e respirando a tecnologia, onde me encontrei meu potencial para solução de problemas. 
 
 - Gestão de hardware e software, Gestão de acesso, Suporte técnico, Programação de software, Acompanhamento do desempenho de máquinas, Desenvolvimento e Manutenção de Banco de Dados, Criação de políticas de segurança, Rotinas de Backup, e ainda por isso tenho que acompanhar as mudanças do mercado tecnológico, Somar e Multiplicar, dessa maneira venho adquirir alguns processos de transição de carreira e de conhecimento para agregar as alterações e as competição do mercado como segue baixo;
