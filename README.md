@@ -3,20 +3,40 @@
 Sejam bem-vindos (as) ao meu Repositório.
 Esse é o meu Portifólio que mostra o meu desempenho na área de DevSecOps|Cyber Security|AWS|Azure|Google Cloud|LGDP|Neurociência.
 
-## 🚀 Sobre mim
-💻 ❤️ Simplesmente Apaixonado por Tecnologia!
-📘 Nascido e criado em São Paulo - SP - ( TEA & TDAH ) Nivél de Suporte 1º
+## 💻 ❤️ Simplesmente apaixonado por tecnologia!
+📘 Nascido e criado em São Paulo - SP,   - ( TEA & TDAH )
 
-Olá, me chamo Ricardo!
+Olá, Prazer me chamo Ricardo!
+Profissional de TI com foco em suporte técnico, segurança da informação e desenvolvimento de testes, demonstrando evolução contínua e adaptação às mudanças tecnológicas.
 
-- Estudantes de, Bacheralado Engenharia da Computação pela Faculdade UNIVESP - Universidade Virtual do Estado de São Paulo (EAD), com previsão de graduação em setembro de 2027.
-Minha trajetória até aqui foi marcada por determinação, curiosidade e um compromisso contínuo com o aprendizado e evolução profissional. Iniciei como Instrutor de Informática no Projeto chamado Telecentros da Cidade São Paulo e ao longo dos anos pude aprimorar minhas habilidades em Hardware e Softwares em sistemas operacionais LINUX (Debian| Ubuntu| CentOS| Parrot e kali ) e também Sistemas Operacional Windows e suas Versões e Ferramentas de Pacote Office 365, como Integração de liderança e comunicação e proatividade. E hoje eu estou totalmente imerso e respirando a tecnologia, onde me encontrei meu potencial para solução de problemas. 
+*Experiência Principal
 
-- Gestão de hardware e software, Gestão de acesso, Suporte técnico, Programação de software, Acompanhamento do desempenho de máquinas, Desenvolvimento e Manutenção de Banco de Dados, Criação de políticas de segurança, Rotinas de Backup, e ainda por isso tenho que acompanhar as mudanças do mercado tecnológico, Somar e Multiplicar, dessa maneira venho adquirir alguns processos de transição de carreira e de conhecimento para agregar as alterações e as competição do mercado como segue baixo;
+Suporte Técnico TI | Analista de Suporte N1 & N3 | Técnico | Gestão de hardware e software | Suporte técnico e gestão de acessos | Manutenção do banco de dados | Administração de backup | Domínio do Pacote Office 365 | Expertise em Linux (Debian/Ubuntu/CentOS/Parrot/Kali) e Windows
 
-- Teste de Software com ênfase de qualidade executando testes manuais e de desempenho e QO/QA/Teste de API/ Carga/Performance/Validação funcionalidade e simulação de cenários: Testes Manuais, Caixa Preta/Regressão/Exploratório Funcionais.
+*Segurança e DevSecOps
 
-- DevSecOps/Cyber Security - Em  atuação forma tratativa de incidentes e relacionado a segurança de informação e suas aplicando na Web application Firewalls, e TOP 10 OWASP/Conhecimento em AWS com implantação Cloud Securyt / Configurações em servidores e aplicações em Linux e Windows, SQL/ DNS/DHCP /TELNET e Firewalls.
+- Tratamento de incidentes de segurança
+- Implementação de Firewalls de Aplicações Web
+- Conhecimento em TOP 10 OWASP
+- Segurança em Nuvem na AWS
+- Configuração de servidores Linux/Windows
+- Experiência com SQL, DNS, DHCP, TELNET e Firewalls
+
+*Testes de Software (QA)
+
+- Testes manuais e de desempenho
+- QA/QC e testes de API
+- Testes de carga e desempenho
+- Testes de funcionalidade
+- Experiência com testes: Caixa Preta, Regressão, Exploratório
+
+*Competências Comportamentais
+
+- Liderança
+- Comunicação efetiva
+- Proatividade
+- Foco na solução de problemas
+- Compromisso com aprendizado contínuo
 
 - Fundamentos Tecnologia e Computação em Nuvem AWS
 Introdução a precificação e vantagens da nuvem AWS/Fundamentos em Escalabilidade e Elasticidade/Fundamentos em Banco de Dados Relacional e Não Relacional/Introdução e Prática em Auto Scaling Group e Elastic Load Balancer/Desenvolvimento de um website estático com Amazon S3/Iniciar cargas de trabalho Linux e acessar via SSH/ Fundamentos em DNS com Route 53 e introdução as políticas de roteamento/Aulas Teóricas e Práticas dos principais serviços da Nuvem AWS.
