@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Pontos Turísticos do Recife Antigo</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-br from-purple-100 to-purple-200 min-h-screen flex flex-col">
+    <header class="bg-purple-800 text-white py-6 text-center">
+        <h1 class="text-4xl font-bold">Descobrindo o <em>Recife Antigo</em></h1>
+        <nav class="mt-4">
+            <a href="marco-zero-page.html" class="bg-white text-purple-700 px-4 py-2 rounded hover:bg-purple-100 transition">
+                Voltar ao Marco Zero
+            </a>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-4 py-8 flex-grow">
+        <section class="grid md:grid-cols-2 gap-8">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img src="/api/placeholder/500/350" alt="Instituto Ricardo Brennand" class="w-full h-72 object-cover">
+                <div class="p-6">
+                    <h2 class="text-3xl font-semibold text-purple-800 mb-4">Instituto Ricardo Brennand</h2>
+                    <p class="text-lg text-gray-700 mb-4">
+                        Um <strong>museu-castelo</strong> que abriga uma das mais importantes <mark>coleções de arte</mark> 
+                        do Brasil, localizado em um cenário que parece saído de um conto medieval.
+                    </p>
+                    <blockquote class="border-l-4 border-purple-600 pl-4 italic text-gray-600">
+                        "Um tesouro arquitetônico e cultural no coração do Recife."
+                    </blockquote>
+                    <ul class="list-disc list-inside text-gray-700 mt-4">
+                        <li>Acervo de <em>arte sacra</em> e pinturas europeias</li>
+                        <li>Arquitetura inspirada em castelos medievais</li>
+                        <li>Jardins e paisagismo deslumbrantes</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img src="/api/placeholder/500/350" alt="Parque das Dunas" class="w-full h-72 object-cover">
+                <div class="p-6">
+                    <h2 class="text-3xl font-semibold text-purple-800 mb-4">Solar de Parnamirim</h2>
+                    <p class="text-lg text-gray-700 mb-4">
+                        Um <strong>patrimônio histórico</strong> que preserva a memória da <mark>Revolução de 1930</mark> 
+                        em Pernambuco, transformado em um museu fascinante.
+                    </p>
+                    <blockquote class="border-l-4 border-purple-600 pl-4 italic text-gray-600">
+                        "Um portal para a história política do Brasil."
+                    </blockquote>
+                    <ul class="list-disc list-inside text-gray-700 mt-4">
+                        <li>Local de eventos históricos importantes</li>
+                        <li>Exposições sobre a <em>história política brasileira</em></li>
+                        <li>Arquitetura colonial preservada</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-purple-50 rounded-lg p-8 mt-8 text-center">
+            <h3 class="text-2xl font-bold text-purple-900 mb-4">Explore o Patrimônio do Recife</h3>
+            <p class="text-gray-700 max-w-2xl mx-auto mb-6">
+                O <abbr title="Recife Antigo">centro histórico</abbr> de Recife é um verdadeiro museu a céu aberto, 
+                onde cada esquina conta uma história, cada prédio guarda uma memória.
+            </p>
+        </section>
+    </main>
+
+    <footer class="bg-purple-900 text-white py-6 text-center">
+        <p>&copy; 2024 Guia Turístico de Recife. Todos os direitos reservados.</p>
+        <p class="mt-2 text-sm">Descubra a rica história do <abbr title="Recife Antigo">Recife Histórico</abbr>!</p>
+    </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pontos Turísticos do Recife Antigo</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            width: 85%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        header {
+            background-color: #1a5f7a;
+            color: #ffffff;
+            text-align: center;
+            padding: 1rem;
+        }
+        .attraction {
+            background-color: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .attraction img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 15px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pontos Turísticos do Recife Antigo</h1>
+    </header>
+
+    <div class="container">
+        <div class="attraction">
+            <h2>Forte das Cinco Pontas</h2>
+            <img src="/api/placeholder/600/400" alt="Forte das Cinco Pontas">
+            <p>O <mark>Forte das Cinco Pontas</mark> é um <strong>monumento histórico</strong> que data do período holandês. Construído no <em>século XVII</em>, o forte representa um importante capítulo da história de Pernambuco.</p>
+            
+            <h3>Destaques</h3>
+            <ul>
+                <li>🏰 <ins>Arquitetura Histórica</ins>: Exemplo impressionante da arquitetura militar da época</li>
+                <li>🎭 <ins>Museu Cultural</ins>: Hoje abriga um museu que conta a história de Recife</li>
+                <li>📅 <ins>Patrimônio Histórico</ins>: Tombado como patrimônio histórico nacional</li>
+            </ul>
+        </div>
+
+        <div class="attraction">
+            <h2>Paço do Frevo</h2>
+            <img src="/api/placeholder/600/400" alt="Paço do Frevo">
+            <p>O <mark>Paço do Frevo</mark> é um <strong>centro cultural dedicado ao frevo</strong>, dança típica de Pernambuco. Localizado no <u>coração do Recife Antigo</u>, é um verdadeiro templo da cultura pernambucana.</p>
+            
+            <h3>Características</h3>
+            <ul>
+                <li>💃 <ins>Cultura Viva</ins>: Preserva e promove a tradição do frevo</li>
+                <li>🏛️ <ins>Espaço Interativo</ins>: Oferece exposições, aulas e apresentações</li>
+                <li>🎉 <ins>Patrimônio Cultural</ins>: Reconhecido como patrimônio imaterial pela UNESCO</li>
+            </ul>
+        </div>
+
+        <a href="marco-zero.html" class="back-link">Voltar ao Marco Zero</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Turismo em Recife | Descubra a Magia do Recife Antigo</p>
+    </footer>
+</body>
+</html>
