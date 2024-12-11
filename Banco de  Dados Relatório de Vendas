@@ -1,0 +1,63 @@
+-- Procedure para gerar relatório diário de produtos comprados
+DELIMITER //
+
+CREATE PROCEDURE RelatorioVendasDiarias()
+BEGIN
+    -- Criar uma tabela temporária para armazenar o relatório
+    CREATE TEMPORARY TABLE RelatorioProdutosDiarios AS (
+        SELECT 
+            DATE(p.data_pedido) AS data_venda,
+            ip.produto_id,
+            pr.nome_produto,
+            SUM(ip.quantidade) AS quantidade_total_vendida,
+            SUM(ip.quantidade * ip.preco_unitario) AS valor_total_vendido
+        FROM 
+            Pedidos p
+            JOIN ItensPedido ip ON p.pedido_id = ip.pedido_id
+            JOIN Produtos pr ON ip.produto_id = pr.produto_id
+        WHERE 
+            p.status_pedido = 'Concluído'  -- Considerar apenas pedidos concluídos
+        GROUP BY 
+            DATE(p.data_pedido),
+            ip.produto_id,
+            pr.nome_produto
+        ORDER BY 
+            data_venda DESC, 
+            quantidade_total_vendida DESC
+    );
+
+    -- Selecionar os dados do relatório
+    SELECT 
+        data_venda,
+        produto_id,
+        nome_produto,
+        quantidade_total_vendida,
+        valor_total_vendido
+    FROM 
+        RelatorioProdutosDiarios;
+
+    -- Opcionalmente, pode-se criar um relatório consolidado
+    SELECT 
+        data_venda,
+        SUM(quantidade_total_vendida) AS total_produtos_vendidos,
+        SUM(valor_total_vendido) AS receita_total
+    FROM 
+        RelatorioProdutosDiarios
+    GROUP BY 
+        data_venda
+    ORDER BY 
+        data_venda DESC;
+
+    -- Limpar a tabela temporária
+    DROP TEMPORARY TABLE IF EXISTS RelatorioProdutosDiarios;
+END //
+
+DELIMITER ;
+
+-- Como usar o procedure
+-- CALL RelatorioVendasDiarias();
+
+-- Exemplo de como poderia ser criado um agendamento para rodar diariamente
+-- CREATE EVENT RelatorioVendasDiarioAutomatico
+-- ON SCHEDULE EVERY 1 DAY
+-- DO CALL RelatorioVendasDiarias();
