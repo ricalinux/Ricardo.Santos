@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Projeto de Manipulação</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .error {
+            color: red;
+            font-size: 0.8em;
+        }
+        #itemList {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulário de Cadastro</h1>
+    
+    <form id="mainForm">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <span id="nomeError" class="error"></span>
+        </div>
+        
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <span id="emailError" class="error"></span>
+        </div>
+        
+        <div>
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade" required>
+            <span id="idadeError" class="error"></span>
+        </div>
+        
+        <button type="submit">Enviar</button>
+    </form>
+
+    <div id="itemList"></div>
+
+    <script>
+        // Classe para gerenciar os itens
+        class ItemManager {
+            constructor() {
+                this.items = [];
+            }
+
+            adicionarItem(item) {
+                this.items.push(item);
+                this.renderizarItens();
+            }
+
+            renderizarItens() {
+                const listaElemento = document.getElementById('itemList');
+                listaElemento.innerHTML = '<h2>Itens Cadastrados:</h2>';
+                
+                this.items.forEach((item, index) => {
+                    const itemElemento = document.createElement('div');
+                    itemElemento.innerHTML = `
+                        <p>
+                            Nome: ${item.nome} | 
+                            Email: ${item.email} | 
+                            Idade: ${item.idade}
+                            <button onclick="itemManager.removerItem(${index})">Remover</button>
+                        </p>
+                    `;
+                    listaElemento.appendChild(itemElemento);
+                });
+            }
+
+            removerItem(index) {
+                this.items.splice(index, 1);
+                this.renderizarItens();
+            }
+        }
+
+        // Instância do gerenciador de itens
+        const itemManager = new ItemManager();
+
+        // Validação de formulário
+        document.getElementById('mainForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            // Limpar erros anteriores
+            document.getElementById('nomeError').textContent = '';
+            document.getElementById('emailError').textContent = '';
+            document.getElementById('idadeError').textContent = '';
+
+            // Validações
+            let isValid = true;
+            const nome = document.getElementById('nome').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const idade = document.getElementById('idade').value;
+
+            // Validação do nome
+            if (nome.length < 2) {
+                document.getElementById('nomeError').textContent = 'Nome deve ter pelo menos 2 caracteres';
+                isValid = false;
+            }
+
+            // Validação do email
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) {
+                document.getElementById('emailError').textContent = 'Email inválido';
+                isValid = false;
+            }
+
+            // Validação da idade
+            if (idade < 18 || idade > 120) {
+                document.getElementById('idadeError').textContent = 'Idade inválida';
+                isValid = false;
+            }
+
+            // Se todos os campos forem válidos, adiciona o item
+            if (isValid) {
+                itemManager.adicionarItem({
+                    nome: nome,
+                    email: email,
+                    idade: idade
+                });
+
+                // Limpar formulário
+                this.reset();
+            }
+        });
+    </script>
+</body>
+</html>
+
+
