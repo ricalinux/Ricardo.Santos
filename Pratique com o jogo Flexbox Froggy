@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Playground Flexbox</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        .navigation {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            background-color: #e0e0e0;
+            padding: 10px;
+        }
+
+        .content {
+            display: flex;
+            margin-top: 20px;
+        }
+
+        .sidebar {
+            flex: 1;
+            background-color: #2196F3;
+            color: white;
+            padding: 15px;
+            margin-right: 20px;
+        }
+
+        .main-content {
+            flex: 3;
+            background-color: #FFC107;
+            padding: 15px;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-around;
+            background-color: #9C27B0;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Meu Site Flexbox</h1>
+            <div>Logo</div>
+        </header>
+
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">Sobre</a>
+            <a href="#">Serviços</a>
+            <a href="#">Contato</a>
+        </nav>
+
+        <div class="content">
+            <aside class="sidebar">
+                <h2>Sidebar</h2>
+                <p>Conteúdo lateral usando Flexbox</p>
+            </aside>
+
+            <main class="main-content">
+                <h2>Conteúdo Principal</h2>
+                <p>Área principal do site com layout Flexbox</p>
+            </main>
+        </div>
+
+        <footer class="footer">
+            <div>Redes Sociais</div>
+            <div>Contato</div>
+            <div>Endereço</div>
+        </footer>
+    </div>
+</body>
+</html>
